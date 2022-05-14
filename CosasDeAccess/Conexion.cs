@@ -11,7 +11,7 @@ namespace CosasDeAccess
     {
         public static MySqlConnection conexion()
         {
-            String cadenaConexion = "server=192.168.1.177; port=3306; user=admin; password=Lamochila; database=AnimeDB";
+            String cadenaConexion = "Cadena de conexion";
             try
             {
                 MySqlConnection connection = new MySqlConnection(cadenaConexion);
