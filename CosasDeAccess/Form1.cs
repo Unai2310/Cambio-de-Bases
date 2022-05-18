@@ -218,8 +218,8 @@ namespace CosasDeAccess
                     {
                         for (int i = 0; i < reader.GetInt32(1);i++)
                         {
-                            int BadGyal = i + 1;
-                            rutas.Add("http://flo.no-ip.info/Anime/" + reader.GetValue(0).ToString() + "/" + reader.GetValue(0).ToString() + " Temporada " + BadGyal);
+                            int NumTemporada = i + 1;
+                            rutas.Add("http://flo.no-ip.info/Anime/" + reader.GetValue(0).ToString() + "/" + reader.GetValue(0).ToString() + " Temporada " + NumTemporada);
                         }
                     }
                 }
